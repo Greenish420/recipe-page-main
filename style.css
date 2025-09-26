@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3e5d8;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 45px;
+    width: 700px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.Card-Header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+}
+
+.Card-Header >img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.Card-Header > p{
+    width: 600px;
+}
+
+.prep-container{
+    width: 100%;
+}
+.Preparation{
+
+
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff5faff;
+}
+
+ul li::marker {
+
+    margin-right: 15px;
+}
+
+li{
+    margin-top: 10px;
+}
+hr{
+    width: 100%;
+    border-width: 1px;
+    border-top: 0px;
+}
+
+table{
+    width: 100%;
+}
+
+.TT{
+    color: brown;
+    font-weight: bold;
+}
