@@ -17,7 +17,8 @@ body{
 }
 
 .card{
-    margin-top: 300px;
+    margin-top: 50em;
+    
     display: flex;
     flex-direction: column;
     gap:20px;
